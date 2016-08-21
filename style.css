@@ -71,9 +71,10 @@ button {
   display: block;
   margin: 0 auto;
   border-radius: 5px;
+  color: #373118;
   font-family: "blenny",sans-serif;
-  padding: 15px 30px;
-  font-size: 15px;
+  padding: 10px 30px;
+  font-size: 19px;
   background: #efc201;
   border: none;
   text-transform: uppercase;
