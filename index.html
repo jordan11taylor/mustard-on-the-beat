@@ -6,6 +6,9 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <script src="https://use.typekit.net/dnu6inj.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
     <!--[if IE]>
   		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   	<![endif]-->
@@ -13,7 +16,13 @@
 
   <body>
     <div style="display: block; margin: 100px auto;">
-      <iframe style="display: block; margin: 0 auto;" width="560" height="315" src="https://www.youtube.com/embed/FmuHqQxbiuQ" frameborder="0" allowfullscreen></iframe>
+      <img src="mustard-on-the-beat.jpg" onclick="document.getElementById('mustardBeat').play()">
+
+      <button id="playButton" onclick="document.getElementById('mustardBeat').play()">ADD MUSTARD</button>
+
+      <audio id="mustardBeat">
+        <source src="mustard-on-the-beat.mp3">
+      </audio>
     </div>
   </body>
 </html>

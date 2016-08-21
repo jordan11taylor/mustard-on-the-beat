@@ -61,4 +61,21 @@ table{
 /*------------------------------------*\
     $MAIN
 \*------------------------------------*/
-/* GO! */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  font-family: "blenny",sans-serif;
+  padding: 15px 30px;
+  font-size: 15px;
+  background: #efc201;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
