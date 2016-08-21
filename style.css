@@ -61,9 +61,9 @@ table{
 /*------------------------------------*\
     $MAIN
 \*------------------------------------*/
-@media (max-width: 476px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
   .container {
-    padding: 20px;
+    padding: 30px;
   }
 }
 
@@ -74,7 +74,7 @@ img {
   width: 100%;
 }
 
-@media (max-width: 476px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
   img {
     max-width: none;
   }
@@ -94,8 +94,11 @@ button {
   letter-spacing: 2px;
 }
 
-@media (max-width: 476px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
   button {
+    margin-top: 50px;
+    padding: 20px 30px;
+    font-size: 46px;
     width: 100%;
   }
 }
