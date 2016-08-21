@@ -61,11 +61,23 @@ table{
 /*------------------------------------*\
     $MAIN
 \*------------------------------------*/
+@media (max-width: 476px) {
+  .container {
+    padding: 20px;
+  }
+}
+
 img {
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
   max-width: 600px;
   width: 100%;
+}
+
+@media (max-width: 476px) {
+  img {
+    max-width: none;
+  }
 }
 
 button {
@@ -80,6 +92,12 @@ button {
   border: none;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+@media (max-width: 476px) {
+  button {
+    width: 100%;
+  }
 }
 
 button:focus {
