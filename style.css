@@ -140,6 +140,12 @@ a:hover {
   height: 100%;
 }
 
+@media (max-width: 600px) {
+  .mustard-wrapper {
+    display: none;
+  }
+}
+
 .drop {
   position: absolute;
   background: #efc201;
@@ -154,7 +160,7 @@ a:hover {
 }
 
 .drip {
-  -webkit-animation: drips 0.7s cubic-bezier(1,.75,.98,1.3) 600ms 1;
+  -webkit-animation: drips 0.7s cubic-bezier(1,.75,.98,1.3) 400ms 1;
 }
 
 @-webkit-keyframes drips {
