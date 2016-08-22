@@ -146,6 +146,12 @@ a:hover {
   }
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 700px) {
+  .mustard-wrapper {
+    display: none;
+  }
+}
+
 .drop {
   position: absolute;
   background: #efc201;
