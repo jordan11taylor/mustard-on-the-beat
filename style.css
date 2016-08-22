@@ -131,7 +131,7 @@ a:hover {
   position: relative;
 }
 
-.mustard-wrapper {
+/*.mustard-wrapper {
   z-index: 50;
   width: 50px;
   position: absolute;
@@ -175,4 +175,4 @@ a:hover {
   45% { top: 88px; width: 25px; height: 25px; }
   99% { top: 67%; }
   100% { top: 68%; width: 25px; height: 25px; }
-}
+}*/
